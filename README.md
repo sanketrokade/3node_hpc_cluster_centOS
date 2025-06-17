@@ -16,22 +16,22 @@ Clone the base VM to create `node1` and `node2`. Set hostnames accordingly:
 
 
 sudo hostnamectl set-hostname master<br>
-sudo hostnamectl set-hostname node1
-sudo hostnamectl set-hostname node2
+sudo hostnamectl set-hostname node1<br>
+sudo hostnamectl set-hostname node2<br>
 
 
 ### 3. Update `/etc/hosts` on all nodes with:
 
-<IP1> master
-<IP2> node1
-<IP3> node2
+<IP1> master<br>
+<IP2> node1<br>
+<IP3> node2<br>
 
 
 ### 4. Setup Passwordless SSH from master to nodes
 
-ssh-keygen
-ssh-copy-id user@node1
-ssh-copy-id user@node2
+ssh-keygen<br>
+ssh-copy-id user@node1<br>
+ssh-copy-id user@node2<br>
 
 
 ### 5. Setup NFS (Master)
