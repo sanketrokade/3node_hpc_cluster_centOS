@@ -15,7 +15,7 @@ Run `install.sh` as root on the base VM to install required packages and setup e
 Clone the base VM to create `node1` and `node2`. Set hostnames accordingly:
 
 
-sudo hostnamectl set-hostname master
+sudo hostnamectl set-hostname master<br>
 sudo hostnamectl set-hostname node1
 sudo hostnamectl set-hostname node2
 
