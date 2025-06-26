@@ -22,9 +22,9 @@ sudo hostnamectl set-hostname node2<br>
 
 ### 3. Update `/etc/hosts` on all nodes with:
 
-<IP1> master <br>
-<IP2> node1  <br>
-<IP3> node2  <br>
+IP1  master <br>
+IP2  node1  <br>
+IP3  node2  <br>
 
 
 ### 4. Setup Passwordless SSH from master to nodes
